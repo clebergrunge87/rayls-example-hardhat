@@ -15,7 +15,7 @@ contract RaylsToken is ERC20, ERC20Burnable, Ownable {
      * @dev Constructor that gives the deployer all of the initial supply
      * @param initialSupply The initial supply of tokens (in wei, i.e., with 18 decimals)
      */
-    constructor(uint256 initialSupply) ERC20("Rayls Token", "RAYLS") Ownable(msg.sender) {
+    constructor(uint256 initialSupply) ERC20("Rayls Test Token", "RYLSTEST") Ownable(msg.sender) {
         _mint(msg.sender, initialSupply);
     }
 
